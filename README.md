@@ -3,6 +3,8 @@
 
 ```Recommend top 5 movies for a specific user based on their ratings and preferences.```
 
+![Project Logo](webapp/static/img/genre_wordcloud.png)
+
 ### Project: A Movie Recommendation System with NMF and KNN
 
 This project implements a movie recommender website built with Python's Flask framework and leverages machine learning algorithms to suggest movies to users. It offers two recommendation engines, each employing a different technique:
@@ -134,4 +136,11 @@ lead you to explore other Korean thrillers like "Burning" or "Oldboy."
 
 
 ---
-Data Source and Acknowledgements: [MovieLens Dataset](https://grouplens.org/datasets/movielens/) 
+
+In my opinion which movies should consider exploring? 😊 ?
+![Top 5 movies](webapp/static/img/top_rated_movies.png)
+
+
+
+
+Data Source and Acknowledgements: [MovieLens Dataset](https://grouplens.org/datasets/movielens/) 🙏🏿
