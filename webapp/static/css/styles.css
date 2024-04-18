@@ -3,14 +3,11 @@ body{
     justify-content: center;
 }
 
-
-
 .container {
     display: flex;
     justify-content: center;
     /* background-color: #45bea4; */
 }
-
 
 .top {
     background-color: #67b684; 

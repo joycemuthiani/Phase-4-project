@@ -22,19 +22,14 @@ def update_model(df):
 if __name__ == '__main__':
 
     while True:
-
-
         df_final = pd.read_csv('../data/preprocessed/df_final.csv')
         nmf, R_nmf = update_model(df_final)
-
-        
-
         with open('models/NMF_model.pickle','wb') as f:
             pickle.dump(nmf, f)
-        logging.warning('New version of the NMF trained model saved in the "models" folder.')
+        #logging.warning('New version of the NMF trained model saved in the "models" folder.')
         with open('models/NMF_R.pickle','wb') as f2:
             pickle.dump(R_nmf, f2)
-        logging.warning('New version of the R matrix for the NMF model saved in the "models" folder.')
+        #logging.warning('New version of the R matrix for the NMF model saved in the "models" folder.')
 
         sleep(60*60*12)
 

@@ -132,7 +132,7 @@ The project is organized as follows:
    ```
    This will launch the application accessible at `http://localhost:5050` in your web browser.
 
-## Testing the Recommendation Engine Video  
+## Testing the Recommendation Engine Video - Webapp 
 ![Record](webapp/static/img/record.gif)
 
 ## Built-in Machine Learning Techniques
